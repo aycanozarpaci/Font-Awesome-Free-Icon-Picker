@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FontAwesome Free Icon Picker with Input Box - Bootstrap</title>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="form-row row">
+        <div class="form-group col-md-12">
+        <div class="form-floating mb-3">
+        <input type="text" class="form-control select-icon" id="icon-sec1"   data-bs-toggle="modal" data-bs-target="#MyIcons" input-data-name="icon-sec1">
+        <label for="icon-sec1">Icon Seçmek için tıklayın</label>
+      </div>
+        </div>
+      <div class="form-group col-md-12">
+        <div class="form-floating mb-3">
+        <input type="text" class="form-control select-icon" id="icon-sec2"  data-bs-toggle="modal" data-bs-target="#MyIcons" input-data-name="icon-sec2">
+        <label for="icon-sec2">Icon Seçmek için tıklayın</label>
+      </div>
+        </div>
+        <div class="form-group col-md-12">
+        <div class="form-floating mb-3">
+        <input type="text" class="form-control select-icon" id="icon-sec3"   data-bs-toggle="modal" data-bs-target="#MyIcons" input-data-name="icon-sec3">
+        <label for="icon-sec3">Icon Seçmek için tıklayın</label>
+      </div>
+        </div>
+        <div class="form-group col-md-12">
+        <div class="form-floating mb-3">
+        <input type="text" class="form-control select-icon" id="icon-sec4"  data-bs-toggle="modal" data-bs-target="#MyIcons" input-data-name="icon-sec4">
+        <label for="icon-sec4">Icon Seçmek için tıklayın</label>
+      </div>
+        </div> 
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade modal-xl" id="MyIcons" tabindex="-1" aria-labelledby="MyIconsLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="MyIconsLabel">Icon Seç</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+          <div class="col-md-12">
+            <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="searchbar" placeholder="aranacak kelime">
+        <label for="searchbar">Iconlar arasında arama yap</label>
+      </div>
+          </div>
+        </div>
+       <div class="row icons-row">
+         
+       </div>
+        </div>
+      </div> 
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
