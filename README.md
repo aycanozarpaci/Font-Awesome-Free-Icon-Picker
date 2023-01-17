@@ -1,2 +1,4 @@
 # Font-Awesome-Free-Icon-Picker Nedir
 Font Awesome kütüphanesinde yer alan ücretsiz iconları kullanıcıya gösteren ve seçilen iconun kodunu inputa yazdıran basit bir çalışmadır.
+
+Introducing our new icon library feature for admin panels! With this update, users can easily add icons to the necessary areas in the panel by browsing through a library of icons displayed in a modal. We've integrated FontAwesome, a widely popular and free icon library, so users have access to a wide range of high-quality icons. The library also includes a search function, allowing users to quickly find the specific icon they need. This new feature streamlines the process of adding icons, making it more efficient and user-friendly for all. Upgrade your admin panel today and experience the convenience of our new FontAwesome icon library feature.
